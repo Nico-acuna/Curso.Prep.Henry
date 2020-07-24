@@ -1,0 +1,7 @@
+for:se utiliza un bucle for para hacer repetitivamente un funcion, como por ejemplo la de imprimir un numero o una matriz.
+
+||: este simbolo significa "o" en español y en ingles "or", para que sea una cosa o la otra.
+
+&&: En español significa "y", y en ingles significa "and", esto les suma a una expresion, otra.
+
+!: este simbolo se utiliza anteponiendolo a otro para negar lo que se está diciendo, escribiendo o expresando.
