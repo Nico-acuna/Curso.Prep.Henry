@@ -1,0 +1,9 @@
+variables: son palabras preasigandas, para luego poder acceder a lo que esa dentro de ellas (valores) mas facilmente(yo guardo algo donde yo lo puedo recuperar)
+
+strings: son palabras o cadenas de caracteres que siempre empiezan y terminan con comillas.
+
+funciones: las funciones sirven para no escribir dos veces la misma cosa. Lo que hace es agrupar, lo guarda y por ultimo ejecuta.
+
+declaraciones: las declaraciones son las variables, las funciones, los srings, los numeros que le dicen al sistema lo que tiene que ejecutar 
+
+valores booleanos: los booleanos pueden ser dos, uno es verdadero y el otro es falso. las operaciones devuelven segun preguntas un resultado true o false
