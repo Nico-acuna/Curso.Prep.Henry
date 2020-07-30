@@ -9,14 +9,13 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  [1,2,3,4,5]
-  return array[array.length -1]
+  return array[array.length -1];
 }
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  return array.length
+  return array.length;
 }
 
 function incrementarPorUno(array) {
@@ -26,7 +25,7 @@ function incrementarPorUno(array) {
   // Tu código:
   var incrementar = [];
 
-  for(var i= 0; i < array.length; i++){
+  for(var i = 0; i < array.length; i++){
     incrementar.push(array[i] +1)
   }
   return incrementar;
@@ -36,7 +35,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array.push(elemento)
+  array.push(elemento);
+
   return array
 }
 
@@ -45,7 +45,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array.unshift(elemento)
+  array.unshift(elemento);
+
   return array
 }
 
@@ -93,8 +94,9 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var maximo=numeros[0]
-  for(var i = 0; i < numeros.length; i++){
+  var maximo=numeros[0];
+
+  for(var i = 1; i < numeros.length; i++){
     if(numeros[i] > maximo) {
       maximo = numeros[i]
     }
@@ -111,7 +113,7 @@ function multiplicarArgumentos() {
   var total = 1;
 
 for(var i = 0; i < arguments.length; i++) {
-  total=total * arguments[i]
+  total = total * arguments[i]
 }
 return total;
 }
